@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body  {
+    background: url("./manhattan bridge.jpg") no-repeat center/cover;
+    width: 100% ;
+    height: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.big-box{
+    width: 800px;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+}
+.image-box {
+   background-image: url("./manhattan\ bridge.jpg") ;
+   width: 400px;
+   height: 700px;
+   object-fit: contain;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px ;
+}
+.text-1{
+    font-size: 33px;
+    font-style: sans-serif ;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.text-2 {
+    font-size: 19px;
+    font-style: sans-serif ;
+    margin-top: 5px;
+    margin-left: 25px;
+    color: grey;
+}
+.text-3 {
+    font-size: 19px;
+    font-style: sans-serif ;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.text-4 {
+    font-size: 19px;
+    font-style: sans-serif ;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.text-5 {
+    font-size: 19px;
+    font-style: sans-serif ;
+    color: orange;
+    margin-top: 20px;
+}
+.hos-text {
+    display: flex;
+    gap: 10px;
+}
+.gray-box-1 {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(237, 234, 234);
+    margin-left: 25px;
+    border-radius: 12px;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+}
+.gray-box-2 {
+    width: 300px;
+    height: 50px;
+    background-color: black;
+    margin-left: 25px;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+.text-6{
+    color: white;
+    font-size: 20px;
+}
